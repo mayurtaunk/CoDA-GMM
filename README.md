@@ -43,10 +43,11 @@ This project follows a rigorous 3-phase pipeline. **Phase 1 and 2 (Data Preparat
 
 ---
 
-## ⚠️ Data Availability Note
-Due to restrictions on the raw NSE XBRL dataset, the original financial statements cannot be shared publicly. However, the **processed ilr-coordinate dataset** is provided to allow researchers to:
-1.  **Verify the Clustering Logic:** Run the GMM algorithm to reproduce the 19 risk archetypes.
-2.  **Validate Findings:** Confirm the separation of "Operational Strangers" (e.g., *Delhivery* and *Blue Dart*) into distinct clusters.
+## ⚠️ Data Source & Availability
+The financial data used in this study was sourced from the **National Stock Exchange (NSE)** public repository (XBRL filings).
+
+* **Raw Data:** To comply with data redistribution policies and maintain repository efficiency, the raw XBRL files are not included here. Researchers can independently access these filings via the NSE website.
+* **Processed Data:** We provide the **`ilr_coordinates.csv`** file, which contains the geometrically transformed (ilr) coordinates. This allows for full reproduction of the **clustering results, statistical validation, and figures** presented in the paper without requiring the raw financial statements.
 
 ---
 
