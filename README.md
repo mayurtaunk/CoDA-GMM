@@ -39,7 +39,7 @@ This project follows a rigorous 3-phase pipeline. **Phase 1 and 2 (Data Preparat
 | **`GMM_Risk_Clustering.ipynb`** | **(Main Code)** Loads the processed data, runs the GMM algorithm, minimizes BIC, and assigns risk labels. |
 | **`ilr_coordinates.csv`** | **(Input Data)** The geometrically transformed (ilr) coordinates. Use this to verify the clustering results. |
 | **`final_cluster_labels.csv`** | **(Output)** The final list of firms and their assigned Risk Cluster (0-18). |
-| **`Validation_and_Forensics.ipynb`** | **(Paper Figures & Case Study)** Generates the **"Cluster DNA" Heatmaps** (Fig 3 & 4) and performs the forensic comparison of *Delhivery* vs. *Blue Dart* (The Logistics Paradox). |
+| **`Validation_and_Forensics.ipynb`** | **(Paper Figures & Case Study)** Generates the **"Cluster DNA" Heatmaps** (Fig 3 & 4). |
 
 ---
 
